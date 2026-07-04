@@ -1,27 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "DIYHomie",
+  "projectDescription": "A mobile and web app that guides homeowners through DIY home improvement, repair, and renovation projects with step-by-step instructions and an AI-powered assistant.",
   "theme": "almond",
-  "name": "DIYHomie",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      { "label": "Support", "href": "mailto:support@diyhomie.com" }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get the App",
-      "href": "https://diyhomie.com"
-    }
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -110,9 +94,24 @@
       }
     ]
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/diyhomie"
-    }
-  }
+  "keyFeatures": [
+    "Step-by-step DIY project guides for repairs and home improvements",
+    "AI-powered assistant that answers home improvement questions in plain language",
+    "Personalized project tracking and progress saving",
+    "Tool and materials finder with cost estimator",
+    "Curated knowledge base covering plumbing, electrical, flooring, painting, and more",
+    "Safety guidelines and advice on when to call a professional",
+    "Shopping lists generated from project requirements",
+    "Mobile and web access for guidance anywhere in the home"
+  ],
+  "publicApiSurface": [
+    "Project search and browse",
+    "AI assistant chat interface",
+    "Progress tracking",
+    "Favorites / saved projects",
+    "Cost estimator",
+    "Shopping list generator",
+    "User profile and settings",
+    "Subscription management"
+  ]
 }
